@@ -23,16 +23,16 @@ main {
     position: relative;
     height: 100vh;
     width: 100vw;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 section#login {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-
-    background-color: white;
+    overflow: hidden;    
+    background-color: rgb(255, 255, 255);
     width: 250px;
     height: 500px;
     border-radius: 20px;
@@ -41,6 +41,7 @@ section#login {
     transform: translate(-50% -50%);
     transition: width .3s, heigh .3s;
     transition-timing-function: ease;
+    
 }
 
 section#login > div#imagem {
@@ -53,7 +54,7 @@ section#login > div#imagem {
 
 section#login > div#form {
     display: block;
-    padding: 10px;   
+    padding: 10px;  
 }
 
 div#form > h1 {
@@ -73,6 +74,10 @@ form > div.campo {
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 div.campo > label {

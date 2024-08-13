@@ -15,6 +15,8 @@
         float: left;
         width: 30%;
         height: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
     }
 
     section#login > div#form {
@@ -49,6 +51,8 @@
         float: right;
         width: 50%;
         height: 100%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
 
     section#login > div#form {
