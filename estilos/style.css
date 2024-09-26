@@ -74,14 +74,11 @@ form > div.campo {
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
 }
 
 div.campo > label {
     display: none;
+    
 }
 
 div.campo > span {
@@ -102,6 +99,7 @@ div.campo > input {
     padding: 2px;
     transform: translateY(-12px);
 }
+
 
 div.campo > input:focus-within {
     background-color: white;
